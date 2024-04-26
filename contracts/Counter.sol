@@ -23,7 +23,6 @@ contract Counter{
     // this function reduces by 1 
     // and doesnt works when count is zero
     function dec() public {
-        require(count > 0, "Count cannot be negative");
         count -= 1;
     }
 }
